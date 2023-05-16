@@ -19,7 +19,7 @@ complications = st.multiselect(
     options=["Arthritis/arthralgia", "Iritis/uveitis", "Skin/mouth lesions", "Peri-anal disease", "Other fistula", "Fever >37.8 °C, >100 °F (in the last week)"]
 )
 diarrhea_treatment = st.selectbox("Diarrhea Treatment",
-                                 options=["None", "Lomotil, Loperamide or Opiates"])
+                                 options=["None", "Lomotil, Loperamide, or Opiates"])
 abdominal_mass = st.selectbox("Presence of abdominal mass",
                               options=["None", "Questionable", "Definite"])
 
